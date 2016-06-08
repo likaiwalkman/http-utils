@@ -1,0 +1,30 @@
+POST http://airtkt2.hanatour.com/messagebroker/amf HTTP/1.1
+Host: airtkt2.hanatour.com
+Connection: keep-alive
+Content-Length: 919
+Origin: http://airtkt2.hanatour.com
+X-Requested-With: ShockwaveFlash/21.0.0.216
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36
+Content-Type: application/x-amf
+Accept: */*
+DNT: 1
+Referer: http://airtkt2.hanatour.com/flex_fr/HGRS_FR.swf/[[DYNAMIC]]/5
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
+Cookie: _pk_id.1.f23b=f7cc006cc2a4e772.1463472978.1.1463472978.1463472978.; WMONID=-oaHEsdA2SS; BnrState=0; _ga=GA1.3.442813152.1463468193; wcs_bt=unknown:1463538299; _cc_id.1.f23b=bc55fd9695ad5ec2.1463469192.6.1463548336.1463485766.; _ga=GA1.2.442813152.1463468193; HntName=jn%2E5; JSESSIONID=F916A72714E0BB38975F2EF946216F57
+
+     null /20  
+   
+Oflex.messaging.messages.RemotingMessageoperation
+sourcetimestamptimeToLiveheadersdestinationmessageId	bodyclientId
+invoke  
+DSEndpoint	DSIdIECDA9E08-D61F-AEC2-76BB-A7BC7389D3CF#serviceAdapter_frI5AAFC244-0A0E-01B0-653E-CD5FAE8836CD	
+	arr0PEK	dep1	arr1	dep2	arr2depdate2	dep3	arr3depdate3adt1chd0row	1000inf:	compYcarYYPrnFareLine
+1-2000
+originHANATOURPtcFilteridtALLPtcFilterType	tpno99CarFilterFareArrangeFACBIdtTpPagingN!__service_methodfindRtFareSkdcarcell
+CBFareCarFilterTypeCBClass
+NoOfTp\
+dayIndhNewCompD	cuid
+scroll6__service_id!rtFareSkdServicedepdate020160531	sortFb2cgradeval
+headerIDTimeCheckDsegdtDCityCheckTypeB	tripOWCharSetUTF-8depdate1
+carsel:tsdebugretdate	dep0SELrandomvalue877PreCarRoutineIECDA9F15-640A-C750-3F0A-673D14647691
