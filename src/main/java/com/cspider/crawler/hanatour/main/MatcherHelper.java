@@ -4,7 +4,7 @@ package com.cspider.crawler.hanatour.main;
 import java.util.List;*/
 
 /**
- * matcher helper
+ * matcher helper : Optimized byte array sub sequence finder
  * Created by kai_li on 2016/6/15.
  */
 public class MatcherHelper {
