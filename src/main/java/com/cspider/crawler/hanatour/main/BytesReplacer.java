@@ -1,7 +1,8 @@
 package com.cspider.crawler.hanatour.main;
 
 public class BytesReplacer {
-    public static void replaceFirst( byte[] bytes, String oldChars, String  newChars){
+
+    private static void replace( byte[] bytes, String oldChars, String  newChars, boolean isAll){
         if (bytes == null || bytes.length == 0){
             return;
         }
@@ -31,12 +32,24 @@ public class BytesReplacer {
             helper.offer(bit);
             pos++;
             if (helper.equals(target)){
-                break;
+                int newPos = pos;
+                for (int i = newCharsBytes.length; i > 0 ; i--) {
+                    bytes[newPos--] = newCharsBytes[i-1];
+                }
+                if (! isAll) {
+                    break;
+                }
             }
         }
 
-        for (int i = newCharsBytes.length; i > 0 ; i--) {
-            bytes[pos--] = newCharsBytes[i-1];
-        }
+
+    }
+
+    public static void replaceAll( byte[] bytes, String oldChars, String  newChars){
+        replace(bytes, oldChars, newChars, true);
+    }
+
+    public static void replaceFirst( byte[] bytes, String oldChars, String  newChars){
+        replace(bytes, oldChars, newChars, false);
     }
 }
